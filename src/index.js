@@ -6,7 +6,7 @@ const pizzaData = [
   {
     name: "Focaccia",
     ingredients: "Bread with italian olive oil and rosemary",
-    price: 6,
+    price: 8,
     photo: "pizzas/focaccia.jpg",
     soldOut: true,
   },
@@ -71,30 +71,34 @@ const pizzaCount=pizzaData.length;
 // const pizzaCount=[];
 function Menu() {
   return (
-    <div className="menu">
+    <main className="menu">
       <h2>Menu</h2>
-      {pizzaCount >0 && (
+
+      {pizzaCount >0 ? (
+        <>
+      <p>Authentic Italian cuisine. Creative dishes to choose from. All from our stone oven, all organic, all delicious</p>
       <ul className="pizzas">
         {pizzaData.map((pizza) => (
           <Pizza pizzaObj={pizza} key={pizza.name} />
         ))}
       </ul>
-      )}
-    </div>
+      </>
+      ): "We are not having any pizzas today."}
+    </main>
   );
 }
 
 function Pizza(props) {
   return (
-    <div className="pizza">
+    <li className={`pizza ${props.pizzaObj.soldOut ? "sold-out" : ""}`}>
       <img src={props.pizzaObj.photo} alt={props.pizzaObj.name} />
       <div>
         <h3>{props.pizzaObj.name}</h3>
         <p>{props.pizzaObj.ingredients}</p>
         <h4>${props.pizzaObj.price}</h4>
-        <h3>{props.pizzaObj.soldOut ? "Sold" : "Available"}</h3>
+        <span>{props.pizzaObj.soldOut ? "Sold" : "Available"}</span>
       </div>
-    </div>
+    </li>
   );
 }
 function Footer() {
@@ -107,14 +111,21 @@ function Footer() {
   return (
     
     <footer className="footer">
-      {isOpen && (
-      <div className="order">
-        <p>We are OPEN untill {closedHours}:00. Come visit us or order online!</p> 
+      {isOpen && pizzaCount>0? (
+      <Order closedHour={closedHours} openHours={openHours}/>
+    ):<p>We welcome you between {openHours}:00 and {closedHours}:00.</p>}
+    </footer>
+  );
+}
+//instead of passing props we directly pass the name of variable in curly braces to directly access the variable without writting props.name
+function Order({closedHour,openHours})
+{
+  return(
+    <div className="order">
+        <p>We are OPEN from {openHours}:00 to {closedHour}:00. Come visit us or order online!</p> 
         <button className="btn">Order Now</button>
       <p>&copy; {new Date().getFullYear()} React Pizza Shop</p>
       </div>
-    )}
-    </footer>
   );
 }
 
