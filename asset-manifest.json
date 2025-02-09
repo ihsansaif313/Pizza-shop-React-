@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pizza-shop-React-/static/css/main.569fc9a4.css",
+    "main.js": "/Pizza-shop-React-/static/js/main.de30807a.js",
+    "index.html": "/Pizza-shop-React-/index.html",
+    "main.569fc9a4.css.map": "/Pizza-shop-React-/static/css/main.569fc9a4.css.map",
+    "main.de30807a.js.map": "/Pizza-shop-React-/static/js/main.de30807a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.569fc9a4.css",
+    "static/js/main.de30807a.js"
+  ]
+}
