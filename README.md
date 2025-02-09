@@ -43,7 +43,7 @@ A modern pizza ordering interface built with React, featuring real-time menu upd
 
 Experience the pizza shop right in your browser:
 
-[![Live Demo Button](https://img.shields.io/badge/🚀_Live_Demo-%20PIZZA%20SHOP-%23FF6B6B?style=for-the-badge&logo=vercel)]([https://your-deployed-app-url.com](https://ihsansaif313.github.io/Pizza-shop-React-/))
+[![Live Demo Button](https://img.shields.io/badge/🚀_Live_Demo-%20PIZZA%20SHOP-%23FF6B6B?style=for-the-badge&logo=vercel)](https://ihsansaif313.github.io/Pizza-shop-React-/)
 
 ## Contributing 🤝
 
