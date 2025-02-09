@@ -1,6 +1,6 @@
 # React Pizza Shop 🍕
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-%20%F0%9F%8D%95%20View%20App-%2300c7b7?style=for-the-badge)]((https://ihsansaif313.github.io/Pizza-shop-React-/))
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-%20%F0%9F%8D%95%20View%20App-%2300c7b7?style=for-the-badge)](https://ihsansaif313.github.io/Pizza-shop-React-/)
 ![React](https://img.shields.io/badge/React-18.x-blue?style=flat&logo=react)
 
 
