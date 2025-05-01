@@ -68,5 +68,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 👨💻 **Created by IHSAN SAIF**  
 📧 **Contact:** [ihsansaifedwardion@gmail.com]  
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=flat&logo=github)]([https://github.com/[your-username]](https://github.com/ihsansaif313))
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-%230A66C2?style=flat&logo=linkedin)]([https://linkedin.com/in/[your-username]](https://www.linkedin.com/in/its-saif-products )
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=flat&logo=github)]([https://github.com/ihsansaif313](https://github.com/ihsansaif313))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-%230A66C2?style=flat&logo=linkedin)]([https://linkedin.com/in/ihsansaif313](https://www.linkedin.com/in/its-saif-products )
